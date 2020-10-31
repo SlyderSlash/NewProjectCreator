@@ -11,3 +11,15 @@ nvphp va créer un dossier contenant un fichier PHP, un fichier CSS & un dossier
 
 Pour le moment le script demande uniquement le nom du projet et créer le dossier à ce nom la
 
+# Installation
+
+Dans le terminal, ce positionner dans le dossier contenant le fichier install_php_html.sh
+Donner l'autorisation de lancement grâce à la commande : chmod +x install_php_html.sh
+Lancer l'installation grâce à la commande : ./install_php_html.sh
+
+Le script es installé
+
+# Desinstallation 
+Dans le terminal, ce positionner dans le dossier contenant le fichier uninstallphphtml.sh
+Donner l'autorisation de lancement grâce à la commande : chmod +x uninstallphphtml.sh
+Lancer l'installation grâce à la commande : ./uninstallphphtml.sh
