@@ -31,4 +31,4 @@ Si lors de l'installation un "Permission Denied" apparait plusieurs fois, relan�
 
 # TEST
 
-Des tests de fonctionnement ont était éffectué sur *windows* et *ubuntu*
+Des tests de fonctionnement ont était éffectué sur *OS X 10.15* et *Ubuntu 20.04*
