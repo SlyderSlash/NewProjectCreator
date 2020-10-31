@@ -9,7 +9,15 @@ Pour l'utiliser, mettre le terminal dans le dossier recevant les projets et tape
 nvhtml va créer un dossier contenant un fichier HTML, un fichier CSS & un fichier JS, tous lié
 nvphp va créer un dossier contenant un fichier PHP, un fichier CSS & un dossier composent avec un header en PHP tous lié
 
-Pour le moment le script demande uniquement le nom du projet et créer le dossier à ce nom la
+Le script prend en paramètre le nom du projet 
+*Exemple : nvhtml project
+project  is the name define*
+ou sinon peux fonctionner par demande
+*Exemple :
+nvhtml
+Quel est le nom du projet ? :
+project
+project is the name define*
 
 # Installation
 
