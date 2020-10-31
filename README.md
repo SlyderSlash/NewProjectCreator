@@ -13,15 +13,17 @@ va créer un dossier contenant un fichier PHP, un fichier CSS & un dossier compo
 
 ### Fonctionement par paramètre   
 ###### *Exemple* :  
-* nvhtml project
-* project  is the name define    
+* user : nvhtml project
+* *npc* : project  is the name define    
 ### Fonctionnement par demande
 ###### *Exemple* :  
-* nvhtml
-* Quel est le nom du projet ? :
-* project
-* project is the name define  
+* user : nvhtml
+* *npc* : Quel est le nom du projet ? :
+* user : project
+* *npc* : project is the name define  
 
+
+*npc = NewProjectCreator*
 # Installation
 
 #### Positionnement
@@ -34,7 +36,7 @@ Donner l'autorisation de lancement grâce à la commande : chmod +x install_php_
 
 Lancer l'installation grâce à la commande : ./install_php_html.sh
 
-Les scripts s'installe
+Les scripts s'installent
 
 # Desinstallation 
 #### Positionnement
