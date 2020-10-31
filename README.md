@@ -23,3 +23,8 @@ Le script es installé
 Dans le terminal, ce positionner dans le dossier contenant le fichier uninstallphphtml.sh
 Donner l'autorisation de lancement grâce à la commande : chmod +x uninstallphphtml.sh
 Lancer l'installation grâce à la commande : ./uninstallphphtml.sh
+
+# Problême
+
+*Permission Denied*
+Si lors de l'installation un "Permission Denied" apparait plusieurs fois, relançer le script avec un sudo : sudo ./install_php_html.sh
