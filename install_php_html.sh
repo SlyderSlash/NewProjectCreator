@@ -1,7 +1,8 @@
 #!/bin/bash
 
 
-
+rm /usr/local/bin/nvhtml
+rm /usr/local/bin/nvphp
 
 
 touch /usr/local/bin/nvhtml
@@ -9,7 +10,11 @@ echo '#!/bin/bash
 
 echo $PWD
 
+if [[ -z "$1" ]]
+then
 read -p "Quel est le nom du projet ? : " -n 11 nameofproject
+else
+nameofproject = $1
 
 if [[ -z "$nameofproject" ]]
 then
