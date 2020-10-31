@@ -28,3 +28,7 @@ Lancer l'installation grâce à la commande : ./uninstallphphtml.sh
 
 *Permission Denied*
 Si lors de l'installation un "Permission Denied" apparait plusieurs fois, relançer le script avec un sudo : sudo ./install_php_html.sh
+
+# TEST
+
+Des tests de fonctionnement ont était éffectué sur *windows* et *ubuntu*
