@@ -1,15 +1,25 @@
 #!/bin/bash
 
 
-
+rm /usr/local/bin/nvhtml
+rm /usr/local/bin/nvphp
 
 
 touch /usr/local/bin/nvhtml
 echo '#!/bin/bash
 
+echo "Demande HTML lançée"
 echo $PWD
 
+if [[ -z "$1" ]]
+then
 read -p "Quel est le nom du projet ? : " -n 11 nameofproject
+echo "$nameofproject is the name define"
+else
+echo "$1 is the first var on nvhtml"
+nameofproject="$1"
+echo "$nameofproject is the name define"
+fi
 
 if [[ -z "$nameofproject" ]]
 then
@@ -38,9 +48,13 @@ echo "<!DOCTYPE html>
     <script src=\"script.js\"></script> <!-- Lien vers le fichier JS-->
   </body>
 </html>" >> $PWD/$nameofproject/index.html
+echo "HTML check"
 echo "/* Placer ici votre code CSS */" >> $PWD/$nameofproject/style.css
+echo "CSS check"
 echo "/* Placer ici votre code JS */" >> $PWD/$nameofproject/script.js
+echo "JS check"
 cd $PWD/$nameofproject
+echo "Start Project"
 code .
 exit 0
 else
@@ -48,14 +62,23 @@ echo "Désolé il y a eu un bug avec $nameofproject"
 fi' >> /usr/local/bin/nvhtml
 chmod +x /usr/local/bin/nvhtml
 
-echo "html module installed"
+echo "HTML module installed"
 
 touch /usr/local/bin/nvphp
 echo '#!/bin/bash
 
+echo "Demande PHP lançée"
 echo $PWD
 
+if [[ -z "$1" ]]
+then
 read -p "Quel est le nom du projet ? : " -n 11 nameofproject
+echo "$nameofproject is the name define"
+else
+echo "$1 is the first var on nvphp"
+nameofproject="$1"
+echo "$nameofproject is the name define"
+fi
 
 if [[ -z "$nameofproject" ]]
 then
@@ -67,7 +90,7 @@ then
 mkdir $PWD/$nameofproject
 # On écrit coucou sur la console
 echo "Dossier Créer !"
-touch $PWD/$nameofproject/index.html
+touch $PWD/$nameofproject/index.php
 touch $PWD/$nameofproject/style.css
 touch $PWD/$nameofproject/script.js
 mkdir $PWD/$nameofproject/composent
@@ -82,15 +105,21 @@ echo "<!DOCTYPE html>
     <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\" /> <!-- Lien vers le fichier CSS-->
   </head>
   <body>
-      <?php include=\"/composent/header.php\" ?>
+      <?php include \"/composent/header.php\" ?>
       <!-- Contenu du site-->
   </body>
 </html>" >> $PWD/$nameofproject/index.php
+echo "INDEX PHP check"
 echo "<header>
 <h1>$nameofproject</h1>
   <header>" >> $PWD/$nameofproject/composent/header.php
+echo "HEADER PHP check"
 echo "/* Placer ici votre code JS */" >> $PWD/$nameofproject/script.js
+echo "JS check"
+echo "/* Placer ici votre code CSS */" >> $PWD/$nameofproject/style.css
+echo "CSS check"
 cd $PWD/$nameofproject
+echo "Start Project"
 code .
 exit 0
 else
@@ -100,4 +129,8 @@ chmod +x /usr/local/bin/nvphp
 
 echo "PHP module installed"
 
-echo "Les nouvelles commandes sont : nvhtml pour un projet html/css/js & nvphp pour un projet PHP"
+echo "
+----------------------------------
+Les nouvelles commandes sont : 
+nvhtml pour un projet html/css/js 
+nvphp pour un projet PHP"
