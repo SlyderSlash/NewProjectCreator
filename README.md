@@ -11,12 +11,12 @@ va créer un dossier contenant un fichier HTML, un fichier CSS & un fichier JS, 
 ##nvphp  
 va créer un dossier contenant un fichier PHP, un fichier CSS & un dossier composent avec un header en PHP tous lié
 
-#####Le script prend en paramètre le nom du projet  
-######Exemple :  
+Le script prend en paramètre le nom du projet  
+*Exemple* :  
 * nvhtml project
 * project  is the name define  
-#####Ou sinon peux fonctionner par demande  
-######Exemple :  
+Ou sinon peux fonctionner par demande  
+*Exemple* :  
 * nvhtml
 * Quel est le nom du projet ? :
 * project
