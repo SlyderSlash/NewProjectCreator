@@ -3,6 +3,8 @@
 
 Un créateur qui va ajouter les scripts nvhtml & nvphp dans le PATH, ces scripts lanceront la construction des fichiers de base pour les projets HTML et PHP
 
+### Necessite que la commande code . de Visual Studio Code soit fonctionnel
+
 # Utilisation
 
 Pour l'utiliser, mettre le terminal dans le dossier recevant les projets et taper la commande correspondant au language utilisé
