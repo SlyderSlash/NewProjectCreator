@@ -54,7 +54,8 @@ Les 2 scripts sont desinstallé
 # Problême
 
 ### *Permission Denied*
-Si lors de l'installation un "Permission Denied" apparait plusieurs fois, relançer le script avec un sudo : sudo ./install_php_html.sh
+Si lors de l'installation un "Permission Denied" apparait plusieurs fois, relançer le script avec un sudo : 
+##### sudo ./install_php_html.sh
 
 # TEST
 
