@@ -24,15 +24,27 @@ va créer un dossier contenant un fichier PHP, un fichier CSS & un dossier compo
 
 # Installation
 
+##### Positionnement
+
 Dans le terminal, ce positionner dans le dossier contenant le fichier install_php_html.sh
+##### Autorisation
+
 Donner l'autorisation de lancement grâce à la commande : chmod +x install_php_html.sh
+##### Installation
+
 Lancer l'installation grâce à la commande : ./install_php_html.sh
 
 Le script es installé
 
 # Desinstallation 
+##### Positionnement
+
 Dans le terminal, ce positionner dans le dossier contenant le fichier uninstallphphtml.sh
+##### Autorisation
+
 Donner l'autorisation de lancement grâce à la commande : chmod +x uninstallphphtml.sh
+##### Installation
+
 Lancer l'installation grâce à la commande : ./uninstallphphtml.sh
 
 # Problême
