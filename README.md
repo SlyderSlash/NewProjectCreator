@@ -6,17 +6,17 @@ Un créateur qui va ajouter les scripts nvhtml & nvphp dans le PATH, ces scripts
 # Utilisation
 
 Pour l'utiliser, mettre le terminal dans le dossier recevant les projets et taper la commande correspondant au language utilisé
-##nvhtml  
+## nvhtml  
 va créer un dossier contenant un fichier HTML, un fichier CSS & un fichier JS, tous lié
-##nvphp  
+## nvphp  
 va créer un dossier contenant un fichier PHP, un fichier CSS & un dossier composent avec un header en PHP tous lié
 
-## Fonctionement par paramètre   
-*Exemple* :  
+### Fonctionement par paramètre   
+###### *Exemple* :  
 * nvhtml project
 * project  is the name define    
-## Fonctionnement par demande
-*Exemple* :  
+### Fonctionnement par demande
+###### *Exemple* :  
 * nvhtml
 * Quel est le nom du projet ? :
 * project
