@@ -30,6 +30,7 @@ elif [[ -n "$nameofproject" ]]
 then 
 mkdir $PWD/$nameofproject
 echo "Dossier Créer !"
+echo "Cette fonction marchera uniquement Visual studio code installé "
 touch $PWD/$nameofproject/index.html
 touch $PWD/$nameofproject/style.css
 touch $PWD/$nameofproject/script.js
@@ -47,11 +48,15 @@ echo "<!DOCTYPE html>
     <script src=\"script.js\"></script> <!-- Lien vers le fichier JS-->
   </body>
 </html>" >> $PWD/$nameofproject/index.html
+echo "----------------------------------"
 echo "HTML check"
+echo "----------------------------------"
 echo "/* Placer ici votre code CSS */" >> $PWD/$nameofproject/style.css
 echo "CSS check"
+echo "----------------------------------"
 echo "/* Placer ici votre code JS */" >> $PWD/$nameofproject/script.js
 echo "JS check"
+echo "----------------------------------"
 cd $PWD/$nameofproject
 echo "Start Project"
 code .
@@ -91,6 +96,7 @@ elif [[ -n "$nameofproject" ]]
 then 
 mkdir $PWD/$nameofproject
 echo "Dossier Créer !"
+echo "Cette fonction marchera uniquement Visual studio code installé "
 touch $PWD/$nameofproject/index.php
 touch $PWD/$nameofproject/style.css
 touch $PWD/$nameofproject/script.js
@@ -110,15 +116,20 @@ echo "<!DOCTYPE html>
       <!-- Contenu du site-->
   </body>
 </html>" >> $PWD/$nameofproject/index.php
+echo "----------------------------------"
 echo "INDEX PHP check"
+echo "----------------------------------"
 echo "<header>
 <h1>$nameofproject</h1>
   <header>" >> $PWD/$nameofproject/composent/header.php
 echo "HEADER PHP check"
+echo "----------------------------------"
 echo "/* Placer ici votre code JS */" >> $PWD/$nameofproject/script.js
 echo "JS check"
+echo "----------------------------------"
 echo "/* Placer ici votre code CSS */" >> $PWD/$nameofproject/style.css
 echo "CSS check"
+echo "----------------------------------"
 cd $PWD/$nameofproject
 echo "Start Project"
 code .
@@ -158,6 +169,7 @@ elif [[ -n "$nameofproject" ]]
 then 
 mkdir $PWD/$nameofproject
 echo "Dossier Créer !"
+echo "Cette fonction marchera uniquement avec Node & Visual studio code installé "
 touch $PWD/$nameofproject/index.html
 touch $PWD/$nameofproject/style.css
 touch $PWD/$nameofproject/script.js
@@ -175,20 +187,24 @@ echo "<!DOCTYPE html>
     <script src=\"script.js\"></script> <!-- Lien vers le fichier JS-->
   </body>
 </html>" >> $PWD/$nameofproject/index.html
+echo "----------------------------------"
 echo "HTML check"
+echo "----------------------------------"
 echo "/* Placer ici votre code CSS */" >> $PWD/$nameofproject/style.css
 echo "CSS check"
+echo "----------------------------------"
 echo "/* Placer ici votre code JS */
-console.log(\"Bonjour, node.js, ceci es un test de fonctionnement final \" ">> $PWD/$nameofproject/script.js
+console.log(\"Bonjour, node.js, ceci es un test de fonctionnement final\"); ">> $PWD/$nameofproject/script.js
 echo "JS check"
 echo "----------------------------------"
 cd $PWD/$nameofproject
 npm -y init
-echo "initialisation Node.js"
+echo "initialisation Node.js avec option basique"
 echo "----------------------------------"
 echo "Start Project"
 echo "----------------------------------"
 echo "Test Project"
+echo "----------------------------------"
 node script.js
 echo "----------------------------------"
 echo "Project Start on VSCode"
@@ -202,7 +218,10 @@ chmod +x /usr/local/bin/nvnode
 echo "NODE.JS module installed"
 
 echo "
+
 ----------------------------------
+New Project Creator -- V2.0
 Les nouvelles commandes sont : 
 nvhtml pour un projet html/css/js 
-nvphp pour un projet PHP"
+nvphp pour un projet PHP
+nvnode pour un projet node.js"
