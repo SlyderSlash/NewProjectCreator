@@ -3,6 +3,7 @@
 
 rm /usr/local/bin/nvhtml
 rm /usr/local/bin/nvphp
+rm /usr/local/bin/nvnode
 
 
 touch /usr/local/bin/nvhtml
