@@ -2,7 +2,7 @@
 ## Version 2.0 - HTML/PHP/NODE.JS
 ###### Un créateur simple en shell, pour la création plus rapide de projet dev
 
-Un créateur qui va ajouter les scripts nvhtml & nvphp dans le PATH, ces scripts lanceront la construction des fichiers de base pour les projets HTML et PHP
+Un créateur qui va ajouter les scripts nvhtml, nvphp & nvnode dans le PATH, ces scripts lanceront la construction des fichiers de base pour les projets HTML et PHP
 
 #### Necessite que la commande code . de Visual Studio Code soit fonctionnel et node soit installé
 
@@ -65,3 +65,12 @@ Si lors de l'installation un "Permission Denied" apparait plusieurs fois, relan�
 ## TEST
 
 Des tests de fonctionnement ont était éffectué sur *OS X 10.15* et *Ubuntu 20.04*
+
+## Fonction à venir
+
+- Test automatique de la présence de code . pour visual studio code
+- Test automatique de la présence de Node.js avec affichage de la version sur chaque projet
+- Proposition d'API basique au lancement projet avec un nvapi
+- Fonction de listing des projets créer avec les fonctions nv
+- Fonction de suppression des projets créer avec les fonctions nv
+- Possibilité de synchroniser directement un nouveau projet avec un git et github ( création de 2 branches - main & Dev)
