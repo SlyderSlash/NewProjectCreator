@@ -1,8 +1,10 @@
 #!/bin/bash
 
-
+echo "Tentative suppression nvhtml fonction pour update"
 rm /usr/local/bin/nvhtml
+echo "Tentative suppression nvphp fonction pour update"
 rm /usr/local/bin/nvphp
+echo "Tentative suppression nvnode fonction pour update"
 rm /usr/local/bin/nvnode
 
 
