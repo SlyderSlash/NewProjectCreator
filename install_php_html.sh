@@ -62,6 +62,9 @@ echo "JS check"
 echo "----------------------------------"
 cd $PWD/$nameofproject
 echo "Start Project"
+git init
+git add *
+git commit -m"First commit"
 code .
 exit 0
 else
@@ -135,6 +138,9 @@ echo "CSS check"
 echo "----------------------------------"
 cd $PWD/$nameofproject
 echo "Start Project"
+git init
+git add *
+git commit -m"First commit"
 code .
 exit 0
 else
@@ -211,6 +217,9 @@ echo "----------------------------------"
 node script.js
 echo "----------------------------------"
 echo "Project Start on VSCode"
+git init
+git add *
+git commit -m"First commit"
 code .
 exit 0
 else

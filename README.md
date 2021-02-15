@@ -1,5 +1,5 @@
 # NewProjectCreator
-## Version 2.0 - HTML/PHP/NODE.JS
+## Version 2.2 - HTML/PHP/NODE.JS
 ###### Un créateur simple en shell, pour la création plus rapide de projet dev
 
 Un créateur qui va ajouter les scripts nvhtml, nvphp & nvnode dans le PATH, ces scripts lanceront la construction des fichiers de base pour les projets HTML et PHP
@@ -74,3 +74,9 @@ Des tests de fonctionnement ont était éffectué sur *OS X 10.15* et *Ubuntu 20
 - Fonction de listing des projets créer avec les fonctions nv
 - Fonction de suppression des projets créer avec les fonctions nv
 - Possibilité de synchroniser directement un nouveau projet avec un git et github ( création de 2 branches - main & Dev)
+
+## Fonction Ajouté ( Version 2.0 => 2.2 )
+
+- Ajout d'une initialisation de repositorie git
+- Ajout des fichiers dans le repo.
+- Ajout du commit initial
